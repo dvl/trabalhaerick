@@ -61,4 +61,4 @@ def enviar():
     return '<pre>{}\n\n-----------------\n\n{}</pre>'.format(subject, msg)
 
 if __name__ == '__main__':
-    run(host='localhost', port=5000, debug=True, reloader=True)
+    run(host='0.0.0.0', port=5000)
