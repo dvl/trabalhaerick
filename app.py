@@ -1,9 +1,19 @@
+# -*- coding: utf-8 -*-
+
+import os
+
 from bottle import (
     route,
     run,
     view,
     request,
 )
+
+try:
+    import gevent.monkey
+    gevent.monkey.patch_all()
+except:
+    pass
 
 
 @route('/')
@@ -61,4 +71,4 @@ def enviar():
     return '<pre>{}\n\n-----------------\n\n{}</pre>'.format(subject, msg)
 
 if __name__ == '__main__':
-    run(host='0.0.0.0', port=5000)
+    run(server='gevent', host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
