@@ -5,6 +5,7 @@
     <title>Trabalha Erick!!</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -105,6 +106,12 @@
         </div>
       </form>
     </div>
+
+    <center><!-- fuck it -->
+      <a href="https://github.com/dvl/trabalhaerick">
+        <i class="fa fa-github fa-3x"></i>
+      </a>
+    </center>
   </div>
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
