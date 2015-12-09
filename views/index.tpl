@@ -91,6 +91,26 @@
                 <input type="checkbox" name="restart"> Restart fronts
               </label>
             </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dummy"> Pedir comida para a galera
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dummy"> Liberar o banheiro para uso
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dummy"> Trocar galão de água
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="dummy"> Trollar o papa-burguer
+              </label>
+            </div>
           </div>
         </div>
         <div class="form-group">
